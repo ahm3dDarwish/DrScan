@@ -18,6 +18,6 @@ read port
 
 nmap --mtu 16 $ip
 
-xterm -e nmap -sC -f -f -f -oN Scan.txt $ip
+xterm -e nmap -sC -f -f -oN Scan.txt $ip
 
 xterm -e nmap --mtu 8 -p $port -oN PortResult.txt $ip
